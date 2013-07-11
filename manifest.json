@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "quickIMG",
+	"description": "Quickly download images to predefined folders",
+	"version": "1.0",
+
+	"permissions": [
+		"contextMenus",
+		"downloads",
+		"<all_urls>"
+	],
+	
+	"icons": {
+		"16": "icon/quickimg-16.png"
+	},
+	
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+	
+	"options_page": "html/options.html"
+}
